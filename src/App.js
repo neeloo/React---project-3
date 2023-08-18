@@ -1,17 +1,12 @@
 import React from 'react'
+import Reasurant from './Component/Basic /Reasurant'
 
-const App = () => {
+function App() {
   return (
-   <>
-   <MyName/>
-   <h1>hellow nilu</h1>
-
-   </>
+    <>
+    <Reasurant/>
+    </>
   )
 }
 
-const MyName = () => {
-  return  <h1>nilu singh patel</h1>
-}
-
-export default App;
+export default App
