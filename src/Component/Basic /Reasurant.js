@@ -1,29 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css';
 import menu from './ManuApi.js';
+import MenuCard from './MenuCard';
 
-function Reasurant() {
-    const mystyle = { color: "red" }; //or write style={{color:"red"}} in span breakfast line
+
+const Reasurant=()=> {
+
+    const [menudata, setdata] = useState(menu);
+    console.log(menudata)
+
+    const filterItem =(category)=>{
+        const list=menu.filter((curElem)=>{
+             return curElem.category===category;
+        })
+        setdata(list);
+
+    }
+
     return (
-        <div className="card-container">
-            <div className="card">
-                <div className="card-body">
-                    <span className="card-number">1</span>
-                    <span className="card-author" style={mystyle}>Breakfast</span>
-                    <h1 className="card-title">Maggi</h1>
-                    <span className="card-description">
-                        I love maggi Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolorum sequi incidunt explicabo sed voluptas consectetur
-                        voluptatibus labore enim accusamus fugit?
-                        
-                    </span>
-                    <div className="card-read">Read</div>
-                </div>
-                <img src="{Image}" alt="image" className='card-media' />
-                <div className="card-tag-subtle">Order Now</div>
+        <>
+        <nav className="navbar">
+            <div className="btn-group">
+                <button className="btn-group__item" onClick={()=>filterItem("breakfast")}>Breakfast</button>
+                <button className="btn-group__item"onClick={()=>filterItem("lunch")}>lunch</button>
+                <button className="btn-group__item"onClick={()=>filterItem("evening")}>Evening</button>
+                <button className="btn-group__item"onClick={()=>filterItem("dinner")}>Dinner</button>
+                <button className="btn-group__item"onClick={()=>setdata(menu)}>All</button>
             </div>
-        </div>
+        </nav>
+            <MenuCard menudata={menudata} />
+
+        </>
     )
+
+
+
 }
 
 export default Reasurant
