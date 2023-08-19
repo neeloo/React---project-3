@@ -43,7 +43,7 @@ const menu = [
         id: 6,
         Image: "Image/chomin.jpeg ",
         name: "chomin",
-        category: "lunch",
+        category: "breakfast",
         prize: 25,
         Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, repellendus? Assumenda quam quas nostrum fugiat."
     },
@@ -51,7 +51,7 @@ const menu = [
         id: 7,
         Image: "Image/pavbhaji.jpeg ",
         name: "pavbhaji",
-        category: "dinner",
+        category: "lunch",
         prize: 250,
         Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, repellendus? Assumenda quam quas nostrum fugiat."
     },
@@ -80,6 +80,24 @@ const menu = [
         prize: 25,
         Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, repellendus? Assumenda quam quas nostrum fugiat."
     },
+    {
+        id: 11,
+        Image: "Image/Non veg.jpeg ",
+        name: "Non veg thali",
+        category: "dinner",
+        prize: 25,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, repellendus? Assumenda quam quas nostrum fugiat."
+    },
+    {
+        id: 12,
+        Image: "Image/street food.jpg ",
+        name: "street-food",
+        category: "dinner",
+        prize: 25,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, repellendus? Assumenda quam quas nostrum fugiat."
+    },
+
+
 ];
 
 export default menu;
