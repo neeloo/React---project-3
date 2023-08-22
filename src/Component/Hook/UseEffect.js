@@ -4,11 +4,11 @@ import './style.css';
 const UseEffect = () => {
 
   const [mynum, setnum] = useState(0);
-  
+
   useEffect (()=>{
     document.title=`Chats(${mynum})`;
+    
   });
-
 
   return (
     <>
