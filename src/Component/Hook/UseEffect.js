@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import './style.css';
 
 const UseEffect = () => {
 
-  const [mynum, setnum] = React.useState(0);
+  const [mynum, setnum] = useState(0);
+  
+  useEffect (()=>{
+    document.title=`Chats(${mynum})`;
+  });
+
+
   return (
     <>
       <div className="center_div">
