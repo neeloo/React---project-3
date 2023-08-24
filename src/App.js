@@ -8,11 +8,11 @@ import ToDo from './Component/ToDoReact/ToDo'
 function App() {
   return (
     <>
-    {/* <Reasurant/> */}
-    {/* <UseState/> */}
-    {/* <UseEffect/> */}
-    {/* <UseReduser/> */}
-    <ToDo/>
+      {/* <Reasurant/> */}
+      {/* <UseState/> */}
+      {/* <UseEffect/> */}
+      {/* <UseReduser/> */}
+      <ToDo />
     </>
   )
 }
