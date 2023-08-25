@@ -1,5 +1,5 @@
 import React from 'react'
-import ToDo from './Component/ToDoReact/ToDo'
+import ToDo from './Component/ToDoList/ToDo'
 //import Reasurant from './Component/Basic /Reasurant'
 // import UseState  from  './Component/Hook/UseState';
 // import  UseEffect from './Component/Hook/UseEffect';
