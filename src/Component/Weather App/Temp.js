@@ -1,10 +1,15 @@
 import React from 'react'
+import './style.css'
 
 const Temp = () => {
   return (
-    <div>
-        
+    <>
+    <div className="wrap">
+        <div className="search">
+    <h1>heloow</h1>
+        </div>
     </div>
+    </>
   )
 }
 
