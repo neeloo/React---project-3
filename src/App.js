@@ -1,9 +1,10 @@
 import React from 'react'
-import ToDo from './Component/ToDoList/ToDo'
+// import ToDo from './Component/ToDoList/ToDo'
 //import Reasurant from './Component/Basic /Reasurant'
 // import UseState  from  './Component/Hook/UseState';
 // import  UseEffect from './Component/Hook/UseEffect';
 // import UseReduser from './Component/Hook/UseReduser';
+import Temp from './Component/Weather App/Temp';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <UseState/> */}
       {/* <UseEffect/> */}
       {/* <UseReduser/> */}
-      <ToDo />
+      {/* <ToDo /> */}
+      <Temp />
     </>
   )
 }
