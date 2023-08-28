@@ -4,7 +4,6 @@ import './style.css'
 const Temp = () => {
 
     const  [searchValue,setSearchValue]=useState("pune");
-
     const getWeatherInfo=()=>{}
   
     return (
