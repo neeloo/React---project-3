@@ -5,11 +5,8 @@ const Temp = () => {
 
     const  [searchValue,setSearchValue]=useState("pune");
 
-    const getWeatherInfo=()=>{
-        
-    }
-
-    
+    const getWeatherInfo=()=>{}
+  
     return (
         <>
             <div className="wrap">
