@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Weathercard from "./weathercard";
 import "./style.css";
+import Weathercard from "./Weathercard";
 
 const Temp = () => {
   const [searchValue, setSearchValue] = useState("pune");
