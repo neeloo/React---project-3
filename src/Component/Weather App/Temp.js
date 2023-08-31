@@ -7,6 +7,7 @@ const Temp = () => {
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
+    
     try {
       let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid={WriteYourAPIKey}`;
 
