@@ -36,6 +36,7 @@ const Weathercard = ({
   }, [weathermood]);
 
   // converting the seconds into time
+  
   let sec = sunset;
   let date = new Date(sec * 1000);
   let timeStr = `${date.getHours()}:${date.getMinutes()}`;
